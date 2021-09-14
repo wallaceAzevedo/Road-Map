@@ -1,0 +1,71 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+#containerMap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sectionMap {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  line-height: 0.5;
+ 
+}
+#hr {
+ 
+  border: 1px solid #fdc921;
+  
+}
+.circleA {
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 15px;
+ background-color: #fdc921;
+}
+
+.circle {
+  border: 2px solid #fdc921;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 15px;
+ 
+}
+
+.separator {
+  height: 150px;
+  background-color: #fdc921;
+ 
+}
+.content {
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.textGold{
+  color: #FDC921;
+  font-weight: bold;
+}
+
+.textCinzaEscuro{
+  color: #717171;
+  font-weight: bold;
+}
+
+.textCinza{
+  color: #C8C8C8
+}
+
+.espacoDiv {
+  margin-top: 150px;
+}
+
+.espaco {
+  margin-top: 100px;
+}
